@@ -16,7 +16,7 @@ public class AClassTests
     public void AClass_Test1()
     {
         // Thread.Sleep(1000);
-        Assert.Equal("TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", AssemblyName.GetAssemblyName("TestProject1.dll").ToString());
+        Assert.Equal("XUnitExamples, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", AssemblyName.GetAssemblyName("XUnitExamples.dll").ToString());
     } 
     
     [Fact]
